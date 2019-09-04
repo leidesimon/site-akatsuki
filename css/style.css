@@ -1,7 +1,27 @@
 aside{
     grid-area: aside;
+    background-color: #1d1d1d;
+}
+
+aside p{
+    font-family: 'Montserrat', sans-serif;
+}
+aside h2{
+    text-align: center;
+
+}
+aside ul li{
+    color: white
+}
+aside h2, aside p{
+    color: white;
+    padding: 0 15px;
+}
+aside ul{
+    list-style-image: url(../img/nuvem-icon.png);
 }
 body{
+    margin: 0px;
     display: grid;
     cursor: url("../img/kunai-icon.png"), default;
     font-family: 'Permanent Marker', cursive;
@@ -13,12 +33,17 @@ grid-template-columns: 25vw 25vw  25vw 25vw;
 grid-template-rows: 5vh 25vh 60vh 10vh;
 margin: 8vh;
 }
-
+body:: -webbit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
 footer{
     grid-area: footer;
 }
 
 header{
+    background-image: url(../img/akatsuki.jpg);
+    background-size: cover;
     grid-area: header;
 }
 nav a{
