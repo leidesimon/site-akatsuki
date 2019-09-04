@@ -3,6 +3,8 @@ aside{
 }
 body{
     display: grid;
+    cursor: url("../img/kunai-icon.png"), default;
+    font-family: 'Permanent Marker', cursive;
     grid-template-areas: "nav nav nav nav"
                         " header header header aside"
                         " section section section aside"
@@ -13,15 +15,29 @@ margin: 8vh;
 }
 
 footer{
-    grid-area: footer
+    grid-area: footer;
 }
 
 header{
     grid-area: header;
 }
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
 nav{
+    background-color: rgb(12, 11, 11);
     grid-area: nav;
+    display: flex;
+    justify-content: space-around
+}
+nav a:hover{
+    color: #f31033;
+    cursor: url ("..//imagens/kunai.png"), default;
+}
+nav > img{
+    width: 40px;
 }
 section{
-    grid-area: section
+    grid-area: section;
 }
