@@ -10,14 +10,14 @@ aside h2{
     text-align: center;
 
 }
-aside ul li{
+aside li{
     color: white
 }
 aside h2, aside p{
     color: white;
     padding: 0 15px;
 }
-aside ul{
+aside li{
     list-style-image: url(../img/nuvem-icon.png);
 }
 body{
@@ -30,8 +30,7 @@ body{
                         " section section section aside"
                         "footer footer footer footer";
 grid-template-columns: 25vw 25vw  25vw 25vw;
-grid-template-rows: 5vh 25vh 60vh 10vh;
-margin: 8vh;
+grid-template-rows: 5vh 25vh 100vh 10vh;
 }
 body:: -webbit-scrollbar{
     width: 0px;
