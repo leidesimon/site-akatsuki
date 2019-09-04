@@ -31,6 +31,7 @@ body{
                         "footer footer footer footer";
 grid-template-columns: 25vw 25vw  25vw 25vw;
 grid-template-rows: 5vh 25vh 100vh 10vh;
+
 }
 body:: -webbit-scrollbar{
     width: 0px;
