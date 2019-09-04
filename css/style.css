@@ -1,5 +1,5 @@
 aside{
-    grid-area: aside
+    grid-area: aside;
 }
 body{
     display: grid;
@@ -33,7 +33,7 @@ nav{
 }
 nav a:hover{
     color: #f31033;
-    cursor: url ("..//imagens/kunai.png"), default;
+    cursor: url("..//img/kunai-icon.png"), default;
 }
 nav > img{
     width: 40px;
